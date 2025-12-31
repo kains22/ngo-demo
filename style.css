@@ -399,6 +399,249 @@ header {
   margin-bottom: 20px;
 }
 
+.Gallery .column img {
+  width: 100%;
+  padding: 5px;
+}
+
+.gal-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+
+.wrapper {
+  max-width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  padding: 25px 30px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  background: #F46062;
+}
+
+.join-content {
+  background: #F46062;
+}
+
+.join-content h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.join-content p {
+  font-size: 18px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  /* Space between buttons */
+  justify-content: center;
+  flex-wrap: wrap;
+  /* Stack buttons on small screens */
+}
+
+.buttons button {
+  padding: 15px 25px;
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
+  min-width: 120px;
+}
+
+.btn-primary {
+  background-color: #404242;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #e0e0e0;
+}
+
+/* Responsive */
+@media (max-width: 520px) {
+  .wrapper {
+    padding: 20px 20px;
+  }
+
+  .join-content h1 {
+    font-size: 24px;
+  }
+
+  .join-content p {
+    font-size: 16px;
+  }
+
+  .buttons button {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+
+footer{
+  margin-top: 0rem;
+}
+
+footer .footer-content {
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+}
+
+footer .footer-content p,
+a {
+  color: #fff;
+}
+
+footer .footer-content .box {
+  width: 33%;
+  transition: all 0.4s ease;
+}
+
+footer .footer-content .topic {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+footer .footer-content p {
+  text-align: justify;
+}
+
+footer .footer-content .lower .topic {
+  margin: 24px 0 5px 0;
+}
+
+footer .footer-content .lower i {
+  padding-right: 16px;
+}
+
+footer .footer-content .middle {
+  padding-left: 80px;
+}
+
+footer .footer-content .middle a {
+  line-height: 32px;
+}
+
+footer .footer-content .right input[type="text"] {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: black;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+
+footer .footer-content .right input[type="submit"] {
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #FF6A00;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-content .right input[type="submit"]:hover {
+  background: none;
+  color: #eb2f06;
+}
+
+footer .footer-content .media-icons a {
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+
+.footer-content .media-icons a:hover {
+  border-color: #eb2f06;
+}
+
+footer a {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #eb2f06;
+}
+
+@media (max-width:1100px) {
+  footer .footer-content .middle {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width:950px) {
+  footer .footer-content .box {
+    width: 50%;
+  }
+
+  .footer-content .right {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width:560px) {
+  footer {
+    position: relative;
+  }
+
+  footer .footer-content .box {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  footer .footer-content .middle {
+    padding-left: 0;
+  }
+}
+
 /* .content a {
   font-size: 23px;
   color: #fff;
@@ -526,5 +769,14 @@ header {
   .content .text button {
     width: 6rem;
     height: 2.2rem;
+  }
+}
+
+
+@media only screen and (max-width: 770px) {
+  .gal-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
