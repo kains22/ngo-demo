@@ -1,0 +1,28 @@
+<div class="card-list">
+          <a href="#" class="card-item">
+            <img src="images/donation-img.webp" alt="Card Image">
+            <span class="developer">Give Donation</span>
+            <h3>Lorem ipsum dolor sit</h3>
+            <div class="arrow">
+              <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+          </a>
+          <a href="#" class="card-item">
+            <img src="images/volter-img.jpg" alt="Card Image">
+            <span class="designer">Become Volunteer</span>
+            <h3>Lorem ipsum dolor sit</h3>
+            <div class="arrow">
+              <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+          </a>
+          <a href="#" class="card-item">
+            <img src="images/shp-img.webp" alt="Card Image">
+            <span class="editor">Give Scholarship</span>
+            <h3>Lorem ipsum dolor sit</h3>
+            <div class="arrow">
+              <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
