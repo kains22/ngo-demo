@@ -2,199 +2,161 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Demo</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NGO Demo</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+  <!-- ========= NAV ========= -->
   <header>
-    <div class="navbar">
+    <div class="container nav-container">
       <div class="logo">
         <a href="#">Logo</a>
       </div>
-      <div class="nav">
+
+      <nav class="nav-links">
         <ul>
-          <ul>
-            <li>
-              <a href="#aboutsection">About</a>
-            </li>
-            <li>
-              <a href="">Get Involved</a>
-            </li>
-            <li>
-              <a href="">Our Impact</a>
-            </li>
-            <li>
-              <a href="">News & Stories</a>
-            </li>
-            <li>
-              <button class="donate-btn btn">Donate</button>
-            </li>
-            <li>
-              <button class="contact-btn btn">Contact</button>
-            </li>
-          </ul>
+          <li><a href="#aboutsection">About</a></li>
+          <li><a href="#">Get Involved</a></li>
+          <li><a href="#">Our Impact</a></li>
+          <li><a href="#">News & Stories</a></li>
+          <li><button class="btn donate-btn">Donate</button></li>
+          <li><button class="btn contact-btn">Contact</button></li>
         </ul>
-        <div class="menu"><i class="fa-solid fa-bars"></i></div>
-      </div>
-      <div class="dropdown-menu">
-        <ul>
-          <li>
-            <a href="#aboutsection">About</a>
-          </li>
-          <li>
-            <a href="">Get Involved</a>
-          </li>
-          <li>
-            <a href="">Our Impact</a>
-          </li>
-          <li>
-            <a href="">News & Stories</a>
-          </li>
-          <li>
-            <button class="donate-btn">Donate</button>
-          </li>
-          <li>
-            <button class="contact-btn">Contact</button>
-          </li>
-        </ul>
-      </div>
+      </nav>
+
+      <div class="menu"><i class="fa-solid fa-bars"></i></div>
+    </div>
+
+    <div class="dropdown-menu">
+      <ul>
+        <li><a href="#aboutsection">About</a></li>
+        <li><a href="#">Get Involved</a></li>
+        <li><a href="#">Our Impact</a></li>
+        <li><a href="#">News & Stories</a></li>
+        <li><button class="btn donate-btn">Donate</button></li>
+        <li><button class="btn contact-btn">Contact</button></li>
+      </ul>
     </div>
   </header>
 
-  <!--==================== MAIN ====================-->
+  <!-- ========= HERO ========= -->
   <section class="hero-section">
-    <div class="container">
-      <div class="heading">
-        <h1>Together We can <span>Save Life</span></h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut laborum facere doloremque voluptatum libero
-          maiores tenetur ven officia repellendus, voluptates excepturi nostrum iusto veritatis, vel saepe lorem oeke lore
-        </p>
-        <button class="donate-btn">Start with a little</button>
-      </div>
+    <div class="container hero-content">
+      <h1>Together We can <span>Save Life</span></h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laborum
+        facere doloremque voluptatum libero maiores tenetur veniam inventore.
+      </p>
+
+      <button class="btn donate-btn">Start with a little</button>
+    </div>
   </section>
 
-  <div class="about-section">
+  <!-- ========= ABOUT / CARDS ========= -->
+  <section class="about-section" id="aboutsection">
     <div class="container">
-      <div class="heading2" id="aboutsection">
-        <h1>About Us</h1>
-      </div>
+      <h2 class="heading2">About Us</h2>
+
       <div class="card-list">
         <a href="#" class="card-item">
-          <img src="images/donation-img.webp" alt="Card Image">
-          <span class="developer">Give donation</span>
-          <h3>A "developer" codes.</h3>
+          <img src="images/donation-img.webp" />
+          <span>Give Donation</span>
+          <h3>Support people in need</h3>
           <div class="arrow">
-            <i class="fas fa-arrow-right card-icon"></i>
+            <i class="fas fa-arrow-right"></i>
           </div>
         </a>
-        <a href="#" class="card-item">
-          <img src="images/volter-img.jpg" alt="Card Image">
-          <span class="designer">Volunteer</span>
-          <h3>Apply Now</h3>
-          <div class="arrow">
-            <i class="fas fa-arrow-right card-icon"></i>
-          </div>
-        </a>
-        <a href="#" class="card-item">
-          <img src="images/shp-img.webp" alt="Card Image">
-          <span class="editor">Scholarship</span>
-          <h3>An "editor" ensu</h3>
-          <div class="arrow">
-            <i class="fas fa-arrow-right card-icon"></i>
-          </div>
-        </a>
-      </div>
-    </div>
 
-    <!-- <div class="fullcontainer" id="aboutsection">
-    <div class="container">
-      <h2 class="heading2"> About Us</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum illum deserunt fuga culpa ratione doloremque,
-        facilis asperiores corrupti distinctio, similique excepturi ipsam dolore molestias minus in quas voluptates
-        dolorum incidunt?
-      </p>
-    </div>
-  </div> -->
+        <a href="#" class="card-item">
+          <img src="images/volter-img.jpg" />
+          <span>Volunteer</span>
+          <h3>Join our team</h3>
+          <div class="arrow">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </a>
 
-    <!-- <div class="fullcontainer" id="aboutsection">
+        <a href="#" class="card-item">
+          <img src="images/shp-img.webp" />
+          <span>Scholarship</span>
+          <h3>Help students grow</h3>
+          <div class="arrow">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========= Programs ========= -->
+  <section class="team-section">
     <div class="container">
-      <h2 class="heading2"> Programs</h2>
+      <h2 class="heading2">Our Programs</h2>
+
+      <div class="programs-cards">
+        <div class="card">
+          <div class="img">
+            <img src="images/1.jpg" alt="Annie Lea">
+          </div>
+          <div class="top-text">
+            <div class="name">Donation Goal</div>
+            <p>$9845</p>
+          </div>
+          <div class="bottom-text">
+            <div class="text">
+              Education to everychild.
+            </div>
+            <div class="btn">
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="images/4.jpg" alt="Eliana Maia">
+          </div>
+          <div class="top-text">
+            <div class="name">Donation Goal</div>
+            <p>$9845</p>
+          </div>
+          <div class="bottom-text">
+            <div class="text">
+              Education to everychild.
+            </div>
+            <div class="btn">
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="images/8.jpg" alt="Harley Briana">
+          </div>
+          <div class="top-text">
+            <div class="name">Donation Goal</div>
+            <p>$9845</p>
+          </div>
+          <div class="bottom-text">
+            <div class="text">
+              Education to everychild.
+            </div>
+            <div class="btn">
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="card2">
-      <div class="img">
-        <img src="#">
-      </div>
-      <div class="top-text">
-        <div class="name">
-          Annie Lea
-        </div>
-        <p>
-          Apps Developer
-        </p>
-      </div>
-      <div class="bottom-text">
-        <div class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto adipisci reprehenderit quasi
-          cum perspiciatis, minima reiciendis magni quam!
-        </div>
-        <div class="btn">
-          <a href="#">Read more</a>
-        </div>
-      </div>
-    </div>
-    <div class="card2">
-      <div class="img">
-        <img src="#">
-      </div>
-      <div class="top-text">
-        <div class="name">
-          Eliana Maia
-        </div>
-        <p>
-          Website Developer
-        </p>
-      </div>
-      <div class="bottom-text">
-        <div class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto adipisci reprehenderit quasi
-          cum perspiciatis, minima reiciendis magni quam!
-        </div>
-        <div class="btn">
-          <a href="#">Read more</a>
-        </div>
-      </div>
-    </div>
-    <div class="card2">
-      <div class="img">
-        <img src="#">
-      </div>
-      <div class="top-text">
-        <div class="name">
-          Harley Briana
-        </div>
-        <p>
-          Graphic Developer
-        </p>
-      </div>
-      <div class="bottom-text">
-        <div class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto adipisci reprehenderit quasi
-          cum perspiciatis, minima reiciendis magni quam!
-        </div>
-        <div class="btn">
-          <a href="#">Read more</a>
-        </div>
-      </div>
-    </div> -->
+  </section>
 
 </body>
-<script src="./script.js"></script>
 
 </html>

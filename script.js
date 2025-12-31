@@ -1,14 +1,6 @@
-// Nav Bar
+ const menu = document.querySelector(".menu");
+    const dropdown = document.querySelector(".dropdown-menu");
 
-const toggleBtn = document.querySelector('.menu');
-const toggleBtnIcon = toggleBtn.querySelector('i');
-const dropDownMenu = document.querySelector('.dropdown-menu');
-
-toggleBtn.onclick = function () {
-  dropDownMenu.classList.toggle('open');
-  const isOpen = dropDownMenu.classList.contains('open');
-  toggleBtnIcon.classList.toggle('fa-bars', !isOpen);
-  toggleBtnIcon.classList.toggle('fa-xmark', isOpen);
-};
-
-// Nav Bar Ends
+    menu.addEventListener("click", () => {
+      dropdown.classList.toggle("show");
+    });
