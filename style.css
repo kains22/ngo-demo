@@ -8,6 +8,10 @@
 }
 
 
+html, body{
+  scroll-behavior: smooth;
+}
+
 /* Nav Bar */
 
 li {
@@ -632,12 +636,12 @@ header {
 
 @media screen and (max-width: 768px) {
   .hero-section {
-  background-image: url("./images/header-bg.jpg");
-  height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-attachment: fixed;
-}
+    background-image: url("./images/header-bg.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 
 
   .heading h1 {
@@ -645,6 +649,7 @@ header {
     width: 40%;
     line-height: 8px;
   }
+
 
   .heading p {
     font-size: 12px;
@@ -684,17 +689,41 @@ header {
 }
 
 @media screen and (max-width: 425px) {
-  
-  .heading h1, span{
-    width: 20%;
-    line-height: 22px;
-    margin-left: -2px;
-  }
-  .heading p{
-    width: 25%;
-    margin-left: 10px;
+  .hero-section {
+    height: 50vh;
+    /* taller on phone */
+    background-attachment: scroll;
+    /* fixes mobile clipping issue */
+    background-position: top;
+    /* show more of the image */
   }
 
+  .heading h1,
+  span {
+    font-size: 22px;
+    width: 19%;
+    line-height: 0px;
+    margin-left: -4px;
+    margin-top: 3rem;
+  }
+
+  .heading p {
+    width: 20%;
+    margin-left: 3px;
+    margin-top: 3px;
+    line-height: 14px;
+  }
+
+
+  .donate-btn {
+    padding: 14px 18px;
+    color: white;
+    background: #F03546;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+  }
 
   .heading2 {
     margin-right: 45rem;
@@ -711,6 +740,30 @@ header {
     margin-top: 1rem;
     gap: 10%;
     margin-right: 45rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+
+
+@media screen and (max-width: 375px) {
+  .heading2 {
+    margin-right: 48rem;
+  }
+
+  .card-list {
+    width: 70rem;
+    margin: 0px 2rem;
+  }
+
+  .card-list .card-item {
+    height: 80vh;
+    margin-top: 1rem;
+    gap: 10%;
+    margin-right: 48rem;
     padding: 0;
     display: flex;
     flex-direction: column;
