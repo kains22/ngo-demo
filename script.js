@@ -1,7 +1,8 @@
 const menu = document.querySelector(".menu");
 const dropdown = document.querySelector(".dropdown-menu");
 const volunteerButton = document.querySelector(".volunteer-arrow");
-
+const form = document.getElementById('contactForm');
+const thankYou = document.getElementById('thankYouMessage');
 
 menu.addEventListener("click", () => {
   dropdown.classList.toggle("show");
@@ -32,4 +33,12 @@ volunteerButton.addEventListener("click", function (event) {
     "https://docs.google.com/forms/d/e/1FAIpQLSfZEnVMVpixKCE6oYLZwvTb4ZL1MODNCjr7ik0jf7_bg8o5Nw/viewform",
     "_blank"
   );
+});
+
+
+
+form.addEventListener('submit', function (e) {
+  e.preventDefault(); // prevent actual submission
+  form.style.display = 'none'; // hide form
+  thankYou.style.display = 'block'; // show thank-you message
 });
