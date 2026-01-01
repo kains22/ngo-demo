@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to right, #fff7f0, #ffe6d6);
+}
+
+header {
+    padding: 15px 30px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ===== HERO ===== */
+.contact-hero {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-hero h1 {
+    color: black;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -4rem;
+}
+
+/* ===== CONTACT FORM CONTAINER ===== */
+.contact-container {
+    max-width: 800px;
+    margin: -5rem auto;
+    padding: 20px;
+    background: #fffaf0;
+    /* soft cream background */
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+    text-align: center;
+    color: #ff6a00;
+    margin-bottom: 20px;
+}
+
+/* ===== FORM ELEMENTS ===== */
+.contact-container form input,
+.contact-container form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-container form button {
+    background: #ff6a00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-container form button:hover {
+    opacity: 0.9;
+}
+
+/* ===== THANK YOU MESSAGE ===== */
+.thank-you {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #404242;
+}
