@@ -21,11 +21,13 @@
 
       <nav class="nav-links">
         <ul>
-          <li><a href="#aboutsection">About</a></li>
-          <li><a href="#video-title">Get Involved</a></li>
-          <li><a href="#programs">Our Impact</a></li>
-          <li><a href="#">News & Stories</a></li>
-          <li><button class="btn donate-btn">Donate</button></li>
+          <li><a href="#aboutsection">About Us</a></li>
+          <li><a href="#programs-section">Programs</a></li>
+          <li><a href="#education-section">Education</a></li>
+          <li><a href="#gallery-section">Gallery</a></li>
+          <a href="donation.html">
+            <li><button class="btn donate-btn" style="cursor: pointer;">Donate</button></li>
+          </a>
           <li><button class="btn contact-btn">Contact</button></li>
         </ul>
       </nav>
@@ -36,11 +38,13 @@
     <!-- mobile dropdown -->
     <div class="dropdown-menu">
       <ul>
-        <li><a href="#aboutsection">About</a></li>
-        <li><a href="#video-title">Get Involved</a></li>
-        <li><a href="#programs">Our Impact</a></li>
-        <li><a href="#">News & Stories</a></li>
-        <li><button class="btn donate-btn">Donate</button></li>
+        <li><a href="#aboutsection">About Us</a></li>
+        <li><a href="#programs-section">Programs</a></li>
+        <li><a href="#education-section">Education</a></li>
+        <li><a href="#gallery-section">Gallery</a></li>
+        <a href="donation.html">
+          <li><button class="btn donate-btn" style="cursor: pointer;">Donate</button></li>
+        </a>
         <li><button class="btn contact-btn">Contact</button></li>
       </ul>
     </div>
@@ -77,14 +81,16 @@
           <img src="images/volter-img.jpg" alt="Volunteer">
           <span>Volunteer</span>
           <h3>Join our team</h3>
-          <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+          <div class="volunteer-arrow arrow">
+            <i class="fas fa-arrow-right"></i>
+          </div>
         </a>
 
         <a href="#" class="card-item">
           <img src="images/shp-img.webp" alt="Scholarship">
           <span>Scholarship</span>
           <h3>Help students grow</h3>
-          <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+          <div class="arrow" href="#aboutsection"><i class="fas fa-arrow-right"></i></div>
         </a>
       </div>
     </div>
@@ -94,7 +100,7 @@
   <!-- ========= PROGRAMS ========= -->
   <section class="team-section">
     <div class="container">
-      <h2 class="heading2" id="programs">Our Programs</h2>
+      <h2 class="heading2" id="programs-section">Our Programs</h2>
 
       <div class="programs-cards">
 
@@ -106,6 +112,9 @@
           <div class="top-text">
             <div class="name">Donation Goal</div>
             <p>$9845</p>
+            <div class="progress">
+              <div class="progress-bar" style="width:70%">70% Complete</div>
+            </div>
           </div>
 
           <div class="bottom-text">
@@ -120,8 +129,11 @@
           </div>
 
           <div class="top-text">
-            <div class="name">Donation Goal</div>
-            <p>$9845</p>
+            <div class="name">Children Educated</div>
+            <p>350+</p>
+            <div class="progress">
+              <div class="progress-bar" style="width:70%">80% Complete</div>
+            </div>
           </div>
 
           <div class="bottom-text">
@@ -136,8 +148,11 @@
           </div>
 
           <div class="top-text">
-            <div class="name">Donation Goal</div>
-            <p>$9845</p>
+            <div class="name">Ongoing Programs</div>
+            <p>50+</p>
+            <div class="progress">
+              <div class="progress-bar" style="width:70%">75% Complete</div>
+            </div>
           </div>
 
           <div class="bottom-text">
@@ -152,7 +167,7 @@
 
 
   <!-- ========= VIDEO ========= -->
-  <section class="video">
+  <section class="video" id="education-section">
     <video autoplay loop muted playsinline class="background-clip">
       <source src="video/childrens.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
@@ -169,8 +184,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             praesentium aliquam architecto error illo aut officiis.
           </p>
-
-          <button>Explore Now</button>
+          <a href="#programs-section">
+            <button>Explore Now</button>
+          </a>
         </div>
       </div>
     </div>
@@ -178,7 +194,7 @@
 
 
   <!-- ========= GALLERY ========= -->
-  <section class="Gallery">
+  <section class="Gallery" id="gallery-section">
     <div class="container">
       <h2 class="heading2">Our Gallery</h2>
 
@@ -207,7 +223,10 @@
       </div>
 
       <div class="buttons">
-        <button class="btn-primary">Join Us</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZEnVMVpixKCE6oYLZwvTb4ZL1MODNCjr7ik0jf7_bg8o5Nw/viewform"
+          , "_blank">
+          <button class="volunteer-arrow btn-primary">Join Us</button>
+        </a>
         <button class="btn-secondary">Adopt A Child</button>
       </div>
     </div>
@@ -216,7 +235,9 @@
 
   <!-- ========= FOOTER ========= -->
   <footer>
+    <a href="#top" class="back-to-top">↑ Back to Top</a>
     <div class="footer-content">
+
 
       <div class="left box">
         <div class="upper">
