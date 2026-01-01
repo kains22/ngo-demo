@@ -19,7 +19,7 @@ header a {
     color: #333;
 }
 
-/* ===== HERO ===== */
+/*HERO */
 .contact-hero {
     height: 40vh;
     display: flex;
@@ -34,13 +34,12 @@ header a {
     margin-top: -4rem;
 }
 
-/* ===== CONTACT FORM CONTAINER ===== */
+/* CONTACT FORM CONTAINER */
 .contact-container {
     max-width: 800px;
     margin: -5rem auto;
     padding: 20px;
     background: #fffaf0;
-    /* soft cream background */
     border-radius: 10px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
 }
@@ -51,7 +50,7 @@ header a {
     margin-bottom: 20px;
 }
 
-/* ===== FORM ELEMENTS ===== */
+/* FORM ELEMENTS  */
 .contact-container form input,
 .contact-container form textarea {
     width: 100%;
@@ -80,7 +79,7 @@ header a {
     opacity: 0.9;
 }
 
-/* ===== THANK YOU MESSAGE ===== */
+/*  THANK YOU MESSAGE */
 .thank-you {
     display: none;
     text-align: center;

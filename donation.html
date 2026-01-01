@@ -26,12 +26,13 @@
             <h2>Make a Donation</h2>
             <p>Your contribution helps children get access to education and healthcare.</p>
 
-            <form>
+            <form id="donationForm">
                 <input type="text" placeholder="Full Name" required>
                 <input type="email" placeholder="Email Address" required>
                 <input type="number" placeholder="Donation Amount ($)" required>
                 <button type="submit" class="btn-primary">Donate Now</button>
             </form>
+
 
             <!-- Progress Bar -->
             <div class="progress-bar">
@@ -43,11 +44,14 @@
 
         <!-- Image / Visual -->
         <div class="donate-image">
-            <img src="images/programs/1.jpg" alt="Help Children">
+            <img src="images/gal-img.jpg" alt="Help Children">
         </div>
-
+        <div class="thank-you" id="donationThankYou">
+            ✅ Thank you for your generosity! Your donation means a lot.
+        </div>
     </section>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
