@@ -1,6 +1,6 @@
-/* -------------------------------------------------
+/*
    GLOBAL STYLES
---------------------------------------------------*/
+*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,9 +19,9 @@ body {
   padding: 0 16px;
 }
 
-/* -------------------------------------------------
+/*
    NAVBAR
---------------------------------------------------*/
+*/
 header {
   background: white;
   border-bottom: 1px solid #eee;
@@ -100,11 +100,11 @@ header {
   color: #333333;
 }
 
-/* -------------------------------------------------
+/*
    HERO
---------------------------------------------------*/
+*/
 .hero-section {
-  background-image: url("./images/header-bg.jpg");
+  background-image: url("../images/header-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -137,10 +137,6 @@ header {
 }
 
 
-
-
-/* ////////////////// */
-
 .donate-btn {
   animation: pulse 2s infinite;
 }
@@ -156,7 +152,6 @@ header {
     transform: scale(1.05);
   }
 }
-
 
 .progress {
   background-color: #eee;
@@ -207,9 +202,9 @@ header {
 }
 
 
-/* -------------------------------------------------
+/*
    SECTION HEADINGS
---------------------------------------------------*/
+*/
 .heading2 {
   text-align: center;
   margin: 4rem 0 4rem;
@@ -226,9 +221,9 @@ header {
   border-radius: 2px;
 }
 
-/* -------------------------------------------------
+/*
    CARDS (ABOUT / SERVICES)
---------------------------------------------------*/
+*/
 .card-list {
   display: grid;
   gap: 18px;
@@ -273,9 +268,9 @@ header {
   border-radius: 50%;
 }
 
-/* -------------------------------------------------
+/*
    PROGRAM / TEAM CARDS (HOVER EXPAND)
---------------------------------------------------*/
+*/
 .programs-cards {
   display: flex;
   gap: 20px;
@@ -362,9 +357,9 @@ header {
   transform: scale(0.9);
 }
 
-/* -------------------------------------------------
+/*
    VIDEO SECTION
---------------------------------------------------*/
+*/
 .video {
   position: relative;
   width: 100%;
@@ -427,9 +422,9 @@ header {
   margin-bottom: 20px;
 }
 
-/* -------------------------------------------------
+/*
    GALLERY
---------------------------------------------------*/
+*/
 .Gallery .column img {
   width: 100%;
   padding: 5px;
@@ -448,9 +443,9 @@ header {
   padding: 5px;
 }
 
-/* -------------------------------------------------
+/*
    JOIN SECTION
---------------------------------------------------*/
+*/
 .wrapper {
   max-width: 100%;
   background: #F46062;
@@ -512,9 +507,9 @@ header {
   background-color: #e0e0e0;
 }
 
-/* -------------------------------------------------
+/*
    FOOTER
---------------------------------------------------*/
+*/
 footer {
   margin-top: 0rem;
 }
@@ -624,9 +619,9 @@ footer a:hover {
   color: #eb2f06;
 }
 
-/* -------------------------------------------------
+/*
    RESPONSIVE MEDIA QUERIES
---------------------------------------------------*/
+*/
 
 /* Navbar + hero + cards mobile */
 @media (max-width: 768px) {

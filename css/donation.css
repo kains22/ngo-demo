@@ -1,4 +1,4 @@
-/* ===== GLOBAL ===== */
+/*  GLOBAL  */
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +10,7 @@ body {
     background: linear-gradient(to right, #fff7f0, #ffe6d6);
 }
 
-/* ===== HEADER ===== */
+/*  HEADER  */
 header {
     padding: 15px 30px;
     background: #fff;
@@ -23,7 +23,7 @@ header a {
     color: #333;
 }
 
-/* ===== HERO DONATE ===== */
+/*  HERO DONATE  */
 .donate-hero {
     background: url('images/donation-banner.jpg') center/cover no-repeat;
     height: 50vh;
@@ -43,7 +43,7 @@ header a {
     /* keep spacing as-is */
 }
 
-/* ===== DONATION CONTAINER ===== */
+/*  DONATION CONTAINER  */
 .donate-container {
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +53,7 @@ header a {
     gap: 50px;
 }
 
-/* ===== FORM ===== */
+/*  FORM  */
 .donate-form {
     flex: 1;
     min-width: 300px;
@@ -98,7 +98,7 @@ header a {
     transition: 0.3s;
 }
 
-/* ===== PROGRESS BAR ===== */
+/*  PROGRESS BAR  */
 .progress-bar {
     margin-top: 25px;
     height: 25px;
@@ -116,7 +116,7 @@ header a {
     color: white;
 }
 
-/* ===== IMAGE ===== */
+/*  IMAGE  */
 .donate-image {
     flex: 1;
     min-width: 300px;
@@ -133,7 +133,7 @@ header a {
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* ===== THANK YOU MESSAGE ===== */
+/*  THANK YOU MESSAGE  */
 .thank-you {
     display: none;
     text-align: center;
