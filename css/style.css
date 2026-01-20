@@ -658,8 +658,10 @@ footer a:hover {
   }
 
   .hero-section p {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 18px;
+    font-weight: 800;
+    font-family: sans-serif;
   }
 
   .card-list {
